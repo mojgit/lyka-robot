@@ -1,0 +1,24 @@
+{
+    "folders": [
+        {
+            "name": "Lyka",
+            "path": "."
+        }
+    ],
+    "settings": {
+        // Settings only applies if you open the project as workspace (not as folder).
+        // Settings in the .vscode directory override these settings.
+        "launch": {},
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[php]": {
+            "editor.defaultFormatter": "devsense.phptools-vscode"
+        },
+        "editor.fontSize": 14,
+        "editor.formatOnSave": true,
+        "php.format.codeStyle": "Laravel",
+        "files.insertFinalNewline": true,
+        "terminal.integrated.fontSize": 14,
+        "terminal.integrated.scrollback": 3000,
+        "diffEditor.useInlineViewWhenSpaceIsLimited": false
+    }
+}
